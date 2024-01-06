@@ -22,7 +22,7 @@
     <div><span>Código</span></div>
     <div><label for="">Bloquear_Agendamiento_Con_Aceptación</label></div>
     <div>Descripción</div>
-    <div><textarea name="Variable_Validator_Tram1" id="Variable_Validator_Tram1" cols="70" rows="4">Esta variable permite o no al sistema realizar el bloqueo del botón Agendar cada vez que el trámite esté con estado Aceptación</textarea></div>
+    <div><textarea name="Variable_Validator_Tram1" id="Variable_Validator_Tram1" cols="70" rows="4" disabled>Esta variable permite o no al sistema realizar el bloqueo del botón Agendar cada vez que el trámite esté con estado Aceptación</textarea></div>
     <div>Valor</div>
     <div><input type="text" size="10px"></div>
 
