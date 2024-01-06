@@ -7,6 +7,14 @@
     <title>Control Agendamientos OCQA</title>
 </head>
 <body>
+    <div class="header"> 
+    <span class="openTecnología">openTecnología </span>
+    <span class="Header_Text">Usuario: ...</span>
+        <span class="Header_Text">Id: ...</span>
+            <span class="Header_Text">Db: ...</span>
+                <span class="Header_Text">Fecha: ...</span>
+    </div>
+    
     <header>
     <div class="ruta">
         <h3 class="Links"><a href=""> Inicio> </a></h3>
