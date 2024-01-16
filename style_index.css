@@ -1,5 +1,9 @@
+html{
+    background-color:#f9f8f8;
+}
 .ruta{
     display: flex;
+    justify-content: center;
 }
 h3{
     color: rgba(3, 3, 175, 0.858);

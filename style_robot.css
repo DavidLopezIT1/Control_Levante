@@ -1,6 +1,8 @@
 html{
     display: flex;
     justify-content: center;
+    background-color:#F9F8F8;
+    
 }
 .ruta{
     display: flex;
@@ -83,4 +85,8 @@ i{
     width: 12px;
     margin-right: 12px;
     margin-left: 0;
+}
+table > tbody, td{
+      text-align: center;
+      font-size: 14px;
 }
