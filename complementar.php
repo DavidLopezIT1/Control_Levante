@@ -53,14 +53,14 @@
         }
         .Total_Generado1{
             background-color:white;
-            border:solid 1px rgb(93, 93, 93);;
+            border:solid 1px rgb(93, 93, 93);
             border-radius:3px;
             color:blue;
             text-align:end;
         }
         .Total_Pagado1{
             background-color:white;
-            border:solid 1px rgb(93, 93, 93);;
+            border:solid 1px rgb(93, 93, 93);
             border-radius:3px;
             color:blue;
             text-align:end;

@@ -120,13 +120,10 @@
     <td></td>
     <td class="Check_td"><input type="checkbox"></td>
 </tbody>
-
-        </table>
-     
+</table>     
         </form>
-        </fieldset>
+            </fieldset>
         </form>
-        
     </main>
     <footer>
         <div class="Footer_Message">
