@@ -1,0 +1,15 @@
+html{
+    display: flex;
+}
+.user_nameL{
+    margin-left: 30px;
+}
+.user_idL{
+    margin-left: 72px;
+}
+.user_loginL{
+    margin-left: 40px;
+}
+input{
+    margin-left: 30px;
+}

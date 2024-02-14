@@ -17,7 +17,11 @@
     
     <header>
     <div class="ruta">
-        <h3 class="Links"><a href=""> Inicio> </a></h3>
+        <h3 class="Links"><a href="user.php"> User> </a></h3>
+        <h3 class="Links"><a href="log-in.php"> Inicio> </a></h3>
+        <h3 class="Links"><a href="index.php"> Variables> </a></h3>
+        <h3 class="Links"><a href="fact.php"> Campos de Factura> </a></h3>
+        <h3 class="Links"><a href="complementar.php"> Complementar> </a></h3>
         <h3 class="Links"><a href="nuevo_robot.php"> Robot...> </a></h3>
         </div>
         <h1>Inicialización de Controles de Validación Lógica y Condicional</h1>
