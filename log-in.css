@@ -1,0 +1,101 @@
+html{
+    width: 100%;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: #6781f2f6;
+    color: rgb(224, 228, 243);
+    width: 100%;
+    height: 40px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.openTecnología{
+    font-size:larger;
+    margin-right: 25px;
+    text-decoration: underline;
+    font-weight:200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.Header_Text{
+    font-size: smaller;
+    margin-right: 10px;
+}
+
+
+.Cont_contenedor1{
+    display: flex;
+    justify-content: center;
+}
+.contenedor1{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    font-size: 22px;
+    font-family: "jost";
+    height: 60px;
+    width: 450px;
+    color: white;
+    background: linear-gradient(to right ,rgb(209, 217, 247), rgb(149, 170, 244), rgba(66, 106, 247, 0.921), rgba(40, 86, 250, 0.809), rgba(34, 82, 255, 0.809) , #2445dc
+    );
+    border-radius: 4px;
+}
+.Key_Image{
+    width: 75px;
+    height: 60px;
+}
+.open_Access{
+    margin-left: 50px;
+    font-weight: bold;
+}
+.Cont_contenedor2{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    font-size: 12px;
+    font-family: "jost";
+    justify-content:center;
+    margin-bottom: 0px;
+}
+form{
+    width: 450px;
+}
+fieldset{
+    padding:4px 30px 20px;
+}
+label{
+    margin-left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#555555;
+    font-size: 11px;
+}
+input{
+    margin-left: 100px;
+    width:110px;
+    height: 12px;
+    background-color: white;
+    border: solid 1px #555555;
+    border-radius: 2px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-left: 360px;
+}
+button{
+    font-weight: bold;
+    color:#555555;
+    font-size: 11px;
+    width: 85px;
+    margin-top: 1px;
+}

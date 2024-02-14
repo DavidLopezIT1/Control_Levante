@@ -100,7 +100,7 @@
     <td> <?php echo $RadicadoSxxi ?> </td>
     <td> <?php echo $fechaRad ?> </td>
     <td> <?php echo"OK"; ?> </td>
-    <td><?php echo $aceptacion; ?></td>
+    <td> <?php echo $aceptacion; ?></td>
     <td> <?php echo $fechaAcep ?> </td>
     <td> <?php echo $Autoadhesivo ?> </td>
     <td> <?php echo $fechaAutoad ?> </td>
