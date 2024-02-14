@@ -1,6 +1,3 @@
-<?php
-include "/conection.php";
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,7 +20,7 @@ include "/conection.php";
 </header>
 
 <main>
-<form action="" method="post">
+<form method="post">
     <fieldset>
         <legend>Formulario de usuarios</legend>
     <label for="user_name" class="user_nameL">Nombre usuario</label>
@@ -31,37 +28,12 @@ include "/conection.php";
     <label for="user_login" class="user_loginL">Log-In usuario</label>
     <label for="user_Email" class="user_EmailL">Email usuario</label>
     <br>
-    <input type="text" class="user_name" name="user_name">
-    <input type="text" class="user_id" name="user_id">
+    <input type="text" class="user_name" name="user_id">
+    <input type="text" class="user_id" name="user_name">
     <input type="text" class="user_login" name="user_login">
     <input type="text" class="user_Email" name="user_Email">
     <input type="submit" name="Guardar">
 
-    <?php
-
-    if(isset($_POST["Guardar"])){
-       
-        if(strlen($_POST["user_login"]) >= 1){ 
-        $nombreUsuario = trim($_POST["user_name"]);
-        $IdUsuario = trim($_POST["user_name"]);
-        $LogInUsuario = trim($_POST["user_login"]);
-        $Query = "INSERT INTO `User-opencomex`(`Login_User`, `Name_User`, `ID_User`) VALUES ('[value-1]','[value-2]','[value-3]')";
-        $resultado = $conection->query;  
-        }
-        if($resultado){
-            ?>
-            <h3 class="OK"> Inscripción correcta</h3>
-            <?php
-        }
-        else{
-            ?>
-            <h3 class="OK"> Inscripción Incorrecta</h3>
-          <?php   
-        }              
-
-    
-    }
-    ?>
 
     </fieldset>    
 </form>
