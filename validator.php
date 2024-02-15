@@ -12,7 +12,7 @@ include "/conection.php";
         $IdUsuario = trim($_POST['user_id']);
         $LogInUsuario = trim($_POST['user_login']);
         $CorreoUsuario = trim($_POST['user_Email']);
-        $consult = "INSERT INTO `Useropencomex2`(`Login_User`, `Name_User`, `ID_User`) VALUES ($LogInUsuario, $nombreUsuario, $IdUsuario)";
+        $consult = "INSERT INTO opencomexusuarios(id, nombre, login, correo) VALUES (`$IdUsuario`, `$nombreUsuario`, `$LogInUsuario`, `$CorreoUsuario`)";
         $resultado = mysqli_query($conection, $consult);
         if($resultado){
             ?>
