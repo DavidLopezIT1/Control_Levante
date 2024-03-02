@@ -1,12 +1,42 @@
 <?php 
-/*
+function cuadrado(int $numero){
+    $result = ($numero * $numero);
+    return $result;
+}
+?>
+<form action="" method="post">
+    <fieldset>
+<input type="number" name="valor"> <br>
+<?php
+$numero = $_POST['valor'];
+if($numero == ""){
+    $numero=0;
+}
+if(isset($numero)){
+    echo 'La raiz cuadrada de ' . $numero . ' es = ' . cuadrado($numero);
+}else{
+    echo null;
+}
+?>
+<input type="submit">
+<?php
+        if(!empty($numero)){
+           echo "Enviado correctamente" ;
+        }else{ 
+            echo "NO Enviado " ; 
+        }
+     ?>
+</fieldset>
+</form>
+
+<?php 
+
 $url="https://ocqa.open-eb.io/pruebas/index.php";
 $content= file_get_contents($url);
 
 echo ( "<textarea>" . $content . "</textarea>");
 //
-*/
-$urlDestino = 'https://www.netflix.com/co-en/login';
+/ $urlDestino = 'https://www.netflix.com/co-en/login';
 $valoresAEnviar1 = array("a.e.ralejandra@gmail.com");
 $valoresAEnviar2 = array("Mom0124*");
 $ch = curl_init();

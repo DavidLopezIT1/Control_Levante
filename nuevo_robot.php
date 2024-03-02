@@ -51,77 +51,89 @@
         <input type="submit" value="Generar">
         <input type="submit" value="Agendar">
         <input type="submit" value="Validar Trámite">
-        
-       
-
-        
-        <form action="" method="">
+      
+        <form action="" method="post">
     
         <table>
-
-    <thead>
-<th>Sub</th>
-<th>Subpartida</th>
-<th>Radicado</th>
-<th>Fecha</th>
-<th>Docs.<br> Soporte</th>
-<th>Aceptación</th>
-<th>Fecha</th>
-<th>Autoadhesivo</th>
-<th>Fecha</th>
-<th>Recibo<br> O.P</th>
-<th>Fecha</th>
-<th>Hora</th>
-<th>Valor</th>
-<th>Pago Total</th>
-<th>Con.<br> Inv.</th>
-<th>Act.<br> Anti.</th>
-<th>Levante</th>
-<th>Fecha</th>
-<th>Tipo <br> Levante</th>
-<th>Actas <br>Inspeccion</th>
-<th>Fecha</th>
-<th>Autoadhesivo <br> Automatico</th>
-<th>Resultado</th>
-<th><input type="checkbox"></th>
-</thead>
-<?php 
-    $RadicadoSxxi = $_POST["Radicado_S_XXI"];
-    $fechaRad = $_POST["Fecha2"];
-    $hora = $_POST["Hora2"];
-    $aceptacion = $_POST["Aceptación"];
-    $fechaAcep = $_POST["Fecha3"];
-    $horaAcep = $_POST["Hora3"];
-    $Autoadhesivo = $_POST["Autoadhesivo"];
-    $fechaAutoad = $_POST["Fecha4"];
-    $horaAutoad = $_POST["Hora4"];
-    ?>
-<tbody>
-    <td>1</td>
-    <td>2101110010</td>
-    <td> <?php echo $RadicadoSxxi ?> </td>
-    <td> <?php echo $fechaRad ?> </td>
-    <td> <?php echo"OK"; ?> </td>
-    <td> <?php echo $aceptacion; ?></td>
-    <td> <?php echo $fechaAcep ?> </td>
-    <td> <?php echo $Autoadhesivo ?> </td>
-    <td> <?php echo $fechaAutoad ?> </td>
-    <td> <?php echo"";?> </td>
-    <td> <?php echo"";?> </td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td class="Check_td"><input type="checkbox"></td>
-</tbody>
+            <thead>
+                <th>Sub</th>
+                <th>Subpartida</th>
+                <th>Radicado</th>
+                <th>Fecha</th>
+                <th>Docs.<br> Soporte</th>
+                <th>Aceptación</th>
+                <th>Fecha</th>
+                <th>Autoadhesivo</th>
+                <th>Fecha</th>
+                <th>Recibo<br> O.P</th>
+                <th>Fecha</th>
+                <th>Hora</th>
+                <th>Valor</th>
+                <th>Pago Total</th>
+                <th>Con.<br> Inv.</th>
+                <th>Act.<br> Anti.</th>
+                <th>Levante</th>
+                <th>Fecha</th>
+                <th>Tipo <br> Levante</th>
+                <th>Actas <br>Inspeccion</th>
+                <th>Fecha</th>
+                <th>Autoadhesivo <br> Automatico</th>
+                <th>Resultado</th>
+                <th><input type="checkbox"></th>
+            </thead>
+                        <?php 
+                            if(isset($_POST["Radicado_S_XXI"])){
+                                $RadicadoSxxi = $_POST["Radicado_S_XXI"];
+                            }
+                            else{
+                                echo " ";
+                            }
+                        
+                            if(isset($_POST["Fecha2"])){
+                                $fechaRad = $_POST["Fecha2"];
+                            }
+                            else{
+                                echo " ";
+                            }
+                            
+                            $hora = $_POST["Hora2"];
+                            $aceptacion = $_POST["Aceptación"];
+                            $fechaAcep = $_POST["Fecha3"];
+                            $horaAcep = $_POST["Hora3"];
+                            $Autoadhesivo = $_POST["Autoadhesivo"];
+                            $fechaAutoad = $_POST["Fecha4"];
+                            $horaAutoad = $_POST["Hora4"];
+                            ?>
+            <tbody>
+                    <td>1</td>
+                    <td>2101110010</td>
+                    <td> <?php if (isset($RadicadoSxxi)) {
+                    echo $RadicadoSxxi;
+                    } else {
+                        echo "";
+                    } ?> </td>
+                    <td> <?php echo $fechaRad ?> </td>
+                    <td> <?php echo"OK"; ?> </td>
+                    <td> <?php echo $aceptacion; ?></td>
+                    <td> <?php echo $fechaAcep ?> </td>
+                    <td> <?php echo $Autoadhesivo ?> </td>
+                    <td> <?php echo $fechaAutoad ?> </td>
+                    <td> <?php echo"";?> </td>
+                    <td> <?php echo"";?> </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="Check_td"><input type="checkbox"></td>
+            </tbody>
 </table>     
         </form>
             </fieldset>
@@ -137,7 +149,7 @@
         <?php  
         $Agendar=$_REQUEST["Agend_Button_Agendar"];
         if($aceptacion >=1){
-            $_GET["Agend_Button_Agendar"] = flock;
+         //   $_GET["Agend_Button_Agendar"] = "<input type="button" disabled>";
         }
         else{
            echo"";
