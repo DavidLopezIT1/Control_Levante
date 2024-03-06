@@ -75,6 +75,7 @@ if(isset($_POST['Acepta_Usuario'])){
     <footer>
 <?php
 
+
 ?>
     </footer>
 
