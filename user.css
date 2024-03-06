@@ -1,0 +1,33 @@
+html{
+    display: flex;
+    justify-content: center;
+    background-color:#F9F8F8;
+}
+.user_nameL{
+    margin-left: 30px;
+}
+.user_idL{
+    margin-left: 96px;
+}
+.user_loginL{
+    margin-left: 60px;
+}
+.user_EmailL{
+    margin-left: 105px;  
+}
+input{
+    margin-left: 30px;
+}
+
+.ruta{
+    display: flex;
+}
+
+h3{
+    color: rgba(3, 3, 175, 0.858);
+    font-size: medium;
+    text-decoration: underline;
+}
+.Links{
+    margin-left: 6px;
+}

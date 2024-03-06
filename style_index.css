@@ -1,0 +1,61 @@
+html{
+    background-color:#f9f8f8;
+    font-size: 20px;
+}
+.header{ 
+    display: flex;
+        background-color: #6781f2f6;
+        color: rgb(224, 228, 243);
+        width: 100%;
+        height: 40px;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+.ruta{
+    display: flex;
+    justify-content: center;
+    width:850px;
+}
+main{
+    display: flex;
+    justify-content: center;
+
+}
+fieldset{
+    width:80%;
+    margin-left:92px;
+}
+legend{
+    color: rgba(3, 3, 175, 0.858);
+}
+.valor{
+    margin-left: 364px;
+}
+input{
+    height:20px; 
+}
+h3{
+    color: rgba(3, 3, 175, 0.858);
+    font-size: medium;
+    text-decoration: underline;
+    margin-left: 6px;
+}
+textarea{
+    width: 840px;
+}
+button{
+    width: 90px;
+    height: 23px;
+    border-radius: 5px;
+    border: solid 1px #6781f285;
+
+}
+.button_var_one{
+    margin-left: 790px;
+    background-color: #6781f2f6;
+    color: #f9f8f8;
+
+}

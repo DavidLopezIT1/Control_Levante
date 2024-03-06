@@ -1,0 +1,92 @@
+html{
+    display: flex;
+    justify-content: center;
+    background-color:#F9F8F8;
+    
+}
+.ruta{
+    display: flex;
+}
+main{
+    display: flex;
+}
+h3{
+    color: rgba(3, 3, 175, 0.858);
+    font-size: medium;
+    text-decoration: underline;
+}
+.Links{
+    margin-left: 6px;
+}
+legend{
+    color: blue;
+}
+.BUN-BUNI0211037-001{
+    color: red;
+}
+.Password_Siglo_XXI{
+    margin-left: 150px;
+}
+.Login_Siglo_XXI_Input{
+    width: 250px;
+}
+.Password_Siglo_XXI_Input{
+    width: 250px;
+}
+.Agendar_Para{
+    margin-left: 125px;
+}
+.Footer_Message{
+    margin-left: 120px;
+}
+table{
+    margin-top: 5px;
+    border: 3px;
+    background:#3e3e3e;
+}
+th{
+    border:  2px #545454;
+    height:30px;
+    padding: 10px;
+}
+td{
+    border: #545454;
+    background:#fff;
+    height:20px;
+    padding: auto;
+}
+.Check_td{
+    padding-left: 10px;
+}
+thead{
+    background-color: #8aa9e2;
+    color: yellow;
+}
+footer{
+    display: flex;
+}
+.Agend_Buttons{
+    margin-left: 310px;
+}
+.Agend_Limpiar{
+    height: 25px;
+    width: 200px;
+}
+.Agend_Button_Agendar{
+    height: 25px;
+    width: 110px;
+}
+.Agend_Salir{
+    height: 25px;
+    width: 110px;
+}
+i{
+    height: 12px;
+    width: 12px;
+    margin-right: 12px;
+    margin-left: 0;
+}
+table > tbody, td{
+      text-align: center;
+      font-size: 14px;
+}

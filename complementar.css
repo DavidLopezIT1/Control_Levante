@@ -1,0 +1,215 @@
+html{
+    background-color:#F9F8F8 ;
+}
+.form1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+fieldset{
+    width: 800px;
+}
+legend{
+    color:blue;
+}
+
+.Suc{
+    width: 40px;
+    border: solid 1px;
+    border-radius: 3px;
+}
+.DO_Im{
+    width: 120px;
+    border: solid 1px;
+    border-radius: 3px;
+}
+.Nit_CC{
+    width: 100px;
+    border: solid 1px;
+    border-radius: 3px;
+}
+.Importador{
+    width: 180px;
+    border: solid 1px;
+    border-radius: 3px;
+}
+.Teléfono{
+    width: 80px;
+    border: solid 1px;
+    border-radius: 3px;
+}
+.Actividad{
+    width: 60px;
+    border: solid 1px;
+    border-radius: 3px;
+}
+.Hora{
+    width: 60px;
+    border: solid 1px;
+    border-radius: 3px;
+}
+.Verificador{
+    width: 15px;
+    border: solid 1px;
+    border-radius: 3px;
+}
+.ruta{
+    display: flex;
+}
+.Links{
+    margin-right: 8px;
+}
+.form2{
+    display: block;
+    justify-content: center;
+    margin-bottom: 5px; 
+    margin-left: 535px;
+}
+.label_header2{
+    margin-left: 25px;
+}
+.label_header3{
+    margin-left: 75px;
+}
+.label_header4{
+    margin-left: 61px;
+}
+.label_header5{
+    margin-left: 143px;
+}
+.label_header6{
+    margin-left: 33px;
+}
+.label_header7{
+    margin-left: 6px;
+}
+.label_header8{
+    margin-left: 40px;
+}
+input{
+    color: black;
+}
+.Total_Generado{
+    color: black;
+}
+.Total_Pagado{
+    margin-left: 55px; 
+}
+.Radicado_S_XXI{
+    margin-left: 70px;
+}
+.Fecha2{
+    margin-left: 35px;
+}
+.Hora2{
+    margin-left: 115px;
+}
+.Fecha3{
+width: 121px;
+}
+.Hora3{
+    width:90px;
+}
+
+.Fecha_Comp{
+    margin-left: 82px; 
+}
+.Hora_Comp{
+    margin-left: 90px;
+}
+.Autodhesivo_Comp{
+    margin-left: 68px;
+}
+.Fecha2_Comp{
+    margin-left: 70px;
+}
+.Hora2_Comp{
+    margin-left: 90px;
+}
+.Buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+}
+.Button_Guardar{
+    display: flex;
+    width: 100px;
+    height: 25px;
+    background: linear-gradient(rgba(255, 221, 0, 0.814), rgb(231, 200, 200));
+    border-radius: 5px;
+    font-size: medium;
+}
+.Button_Anticipada{
+    display: flex;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(254, 248, 248), rgba(143, 143, 141, 0.814));
+    border-radius: 5px;
+    font-size: medium;
+}
+.Button_Salir{
+    display: flex;
+    width: 100px;
+    height: 25px;
+    margin-right: 59px;
+    border-radius: 5px;
+    background: linear-gradient(rgba(115, 161, 252, 0.787), rgba(219, 219, 216, 0.814));
+    border-radius: 5px;
+    font-size: medium;
+}
+.Button_Salir2{
+    display: flex;
+    margin-left: 1265px;
+    margin-bottom: 80px ;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background: linear-gradient(rgba(115, 161, 252, 0.787), rgba(219, 219, 216, 0.814));
+    border-radius: 5px;
+    font-size: medium;
+}
+.cuerpo_factura{
+    display: flex;
+    justify-content: center;
+}
+.form_fact{
+    display: inherit;
+    justify-content: center;
+}
+.Buttons2{
+  display: flex;
+  justify-content: center;  
+}
+div > input {
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 3px;
+    
+}.Button_Guardar2{
+    display: flex;
+    margin-left: 475px;
+    width: 100px;
+    height: 25px;
+    background: linear-gradient(rgba(255, 221, 0, 0.814), rgb(231, 200, 200));
+    border-radius: 5px;
+    font-size: medium;
+}
+.Button_Anticipada2{
+    display: flex;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(254, 248, 248), rgba(143, 143, 141, 0.814));
+    border-radius: 5px;
+    font-size: medium;
+}
+.Button_Salir3{
+    display: flex;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background: linear-gradient(rgba(115, 161, 252, 0.787), rgba(219, 219, 216, 0.814));
+    border-radius: 5px;
+    font-size: medium;
+}
