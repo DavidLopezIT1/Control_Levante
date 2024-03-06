@@ -1,12 +1,20 @@
 html{
+<<<<<<< HEAD
     display: flex;
     justify-content: center;
     background-color:#F9F8F8;
+=======
+
+    justify-content: center;
+    background-color:#F9F8F8;
+    
+>>>>>>> origin/master
 }
 .user_nameL{
     margin-left: 30px;
 }
 .user_idL{
+<<<<<<< HEAD
     margin-left: 96px;
 }
 .user_loginL{
@@ -14,6 +22,15 @@ html{
 }
 .user_EmailL{
     margin-left: 105px;  
+=======
+    margin-left: 72px;
+}
+.user_loginL{
+    margin-left: 40px;
+}
+.user_EmailL{
+    margin-left: 80px;  
+>>>>>>> origin/master
 }
 input{
     margin-left: 30px;

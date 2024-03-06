@@ -1,30 +1,54 @@
 html{
     background-color:#F9F8F8 ;
+<<<<<<< HEAD
     font-size: 11.5px;
 }
 .form1{
     display: inline-block;
+=======
+}
+.form1{
+    display: flex;
+>>>>>>> origin/master
     justify-content: center;
     margin-bottom: 5px;
 }
 fieldset{
+<<<<<<< HEAD
     width: 620px;  
+=======
+    width: 800px;
+>>>>>>> origin/master
 }
 legend{
     color:blue;
 }
+<<<<<<< HEAD
 .Suc{
     width: 30px;
+=======
+
+.Suc{
+    width: 40px;
+>>>>>>> origin/master
     border: solid 1px;
     border-radius: 3px;
 }
 .DO_Im{
+<<<<<<< HEAD
     width: 100px;
+=======
+    width: 120px;
+>>>>>>> origin/master
     border: solid 1px;
     border-radius: 3px;
 }
 .Nit_CC{
+<<<<<<< HEAD
     width: 80px;
+=======
+    width: 100px;
+>>>>>>> origin/master
     border: solid 1px;
     border-radius: 3px;
 }
@@ -34,17 +58,29 @@ legend{
     border-radius: 3px;
 }
 .Teléfono{
+<<<<<<< HEAD
     width: 60px;
+=======
+    width: 80px;
+>>>>>>> origin/master
     border: solid 1px;
     border-radius: 3px;
 }
 .Actividad{
+<<<<<<< HEAD
     width: 40px;
+=======
+    width: 60px;
+>>>>>>> origin/master
     border: solid 1px;
     border-radius: 3px;
 }
 .Hora{
+<<<<<<< HEAD
     width: 30px;
+=======
+    width: 60px;
+>>>>>>> origin/master
     border: solid 1px;
     border-radius: 3px;
 }
@@ -62,6 +98,7 @@ legend{
 .form2{
     display: block;
     justify-content: center;
+<<<<<<< HEAD
     margin-bottom: 5px;    
 }
 .monster{
@@ -85,13 +122,38 @@ legend{
 }
 .label_header7{
     margin-left: 2px;
+=======
+    margin-bottom: 5px; 
+    margin-left: 535px;
+}
+.label_header2{
+    margin-left: 25px;
+}
+.label_header3{
+    margin-left: 75px;
+}
+.label_header4{
+    margin-left: 61px;
+}
+.label_header5{
+    margin-left: 143px;
+}
+.label_header6{
+    margin-left: 33px;
+}
+.label_header7{
+    margin-left: 6px;
+>>>>>>> origin/master
 }
 .label_header8{
     margin-left: 40px;
 }
 input{
     color: black;
+<<<<<<< HEAD
     font-size: 10px;
+=======
+>>>>>>> origin/master
 }
 .Total_Generado{
     color: black;
@@ -141,7 +203,11 @@ width: 121px;
     height: 25px;
     background: linear-gradient(rgba(255, 221, 0, 0.814), rgb(231, 200, 200));
     border-radius: 5px;
+<<<<<<< HEAD
     font-size: small;
+=======
+    font-size: medium;
+>>>>>>> origin/master
 }
 .Button_Anticipada{
     display: flex;
@@ -150,7 +216,11 @@ width: 121px;
     border-radius: 5px;
     background: linear-gradient(rgb(254, 248, 248), rgba(143, 143, 141, 0.814));
     border-radius: 5px;
+<<<<<<< HEAD
     font-size: small;
+=======
+    font-size: medium;
+>>>>>>> origin/master
 }
 .Button_Salir{
     display: flex;
@@ -160,18 +230,30 @@ width: 121px;
     border-radius: 5px;
     background: linear-gradient(rgba(115, 161, 252, 0.787), rgba(219, 219, 216, 0.814));
     border-radius: 5px;
+<<<<<<< HEAD
     font-size: small;
 }
 .Button_Salir2{
     display: inherit;
     /*margin-left: 1265px;*/
+=======
+    font-size: medium;
+}
+.Button_Salir2{
+    display: flex;
+    margin-left: 1265px;
+>>>>>>> origin/master
     margin-bottom: 80px ;
     width: 100px;
     height: 25px;
     border-radius: 5px;
     background: linear-gradient(rgba(115, 161, 252, 0.787), rgba(219, 219, 216, 0.814));
     border-radius: 5px;
+<<<<<<< HEAD
     font-size: small;
+=======
+    font-size: medium;
+>>>>>>> origin/master
 }
 .cuerpo_factura{
     display: flex;
@@ -197,7 +279,11 @@ div > input {
     height: 25px;
     background: linear-gradient(rgba(255, 221, 0, 0.814), rgb(231, 200, 200));
     border-radius: 5px;
+<<<<<<< HEAD
     font-size: small;
+=======
+    font-size: medium;
+>>>>>>> origin/master
 }
 .Button_Anticipada2{
     display: flex;
@@ -206,7 +292,11 @@ div > input {
     border-radius: 5px;
     background: linear-gradient(rgb(254, 248, 248), rgba(143, 143, 141, 0.814));
     border-radius: 5px;
+<<<<<<< HEAD
     font-size: small;
+=======
+    font-size: medium;
+>>>>>>> origin/master
 }
 .Button_Salir3{
     display: flex;
@@ -215,5 +305,9 @@ div > input {
     border-radius: 5px;
     background: linear-gradient(rgba(115, 161, 252, 0.787), rgba(219, 219, 216, 0.814));
     border-radius: 5px;
+<<<<<<< HEAD
     font-size: small;
+=======
+    font-size: medium;
+>>>>>>> origin/master
 }

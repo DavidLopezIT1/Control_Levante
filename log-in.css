@@ -30,6 +30,11 @@ header{
     font-size: smaller;
     margin-right: 10px;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/master
 .Cont_contenedor1{
     display: flex;
     justify-content: center;
@@ -42,7 +47,11 @@ header{
     font-size: 22px;
     font-family: "jost";
     height: 60px;
+<<<<<<< HEAD
     width: 345px;
+=======
+    width: 450px;
+>>>>>>> origin/master
     color: white;
     background: linear-gradient(to right ,rgb(209, 217, 247), rgb(149, 170, 244), rgba(66, 106, 247, 0.921), rgba(40, 86, 250, 0.809), rgba(34, 82, 255, 0.809) , #2445dc
     );
@@ -53,8 +62,13 @@ header{
     height: 60px;
 }
 .open_Access{
+<<<<<<< HEAD
     margin-left: 20px;
     font-size: 21px;
+=======
+    margin-left: 50px;
+    font-weight: bold;
+>>>>>>> origin/master
 }
 .Cont_contenedor2{
     display: flex;
@@ -66,10 +80,17 @@ header{
     margin-bottom: 0px;
 }
 form{
+<<<<<<< HEAD
     width: 350px;
 }
 fieldset{
     padding:4px 10px 20px;
+=======
+    width: 450px;
+}
+fieldset{
+    padding:4px 30px 20px;
+>>>>>>> origin/master
 }
 label{
     margin-left: 30px;
@@ -88,7 +109,11 @@ input{
 .button{
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     margin-left: 260px;
+=======
+    margin-left: 360px;
+>>>>>>> origin/master
 }
 button{
     font-weight: bold;

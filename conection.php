@@ -1,5 +1,8 @@
 <?php
+<<<<<<< HEAD
 /*
+=======
+>>>>>>> origin/master
 $conection = mysqli_connect("localhost", "root", "Juana101453**", "Login_openComex");
 
 if($conection->connect_errno){
@@ -7,6 +10,7 @@ if($conection->connect_errno){
 }
 else{
     echo "conected";
+<<<<<<< HEAD
 }*/
 
 $conection = mysqli_connect("localhost", "root", "", "general");
@@ -16,5 +20,7 @@ if($conection->connect_errno){
     die ("Conección Fallida" . $conection->connect_errno);
 }else{
     echo "Conexión Exitosa!";
+=======
+>>>>>>> origin/master
 }
 ?>

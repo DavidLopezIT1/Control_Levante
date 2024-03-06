@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 include 'validator.php';
 
@@ -24,6 +25,8 @@ if(isset($_POST['Acepta_Usuario'])){
 }
 
 ?>
+=======
+>>>>>>> origin/master
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,6 +39,7 @@ if(isset($_POST['Acepta_Usuario'])){
 </head>
 <body>
     <header>
+<<<<<<< HEAD
     <span class="openTecnología">DsTecnology </span>
     <span class="Header_Text">Usuario: ...</span>
         <span class="Header_Text">Id: ...</span>
@@ -43,18 +47,31 @@ if(isset($_POST['Acepta_Usuario'])){
             <span class="Header_Text">Fecha: ...</span>
         </header>
         
+=======
+    <span class="openTecnología">openTecnología </span>
+    <span class="Header_Text">Usuario: ...</span>
+        <span class="Header_Text">Id: ...</span>
+            <span class="Header_Text">Db: ...</span>
+                <span class="Header_Text">Fecha: ...</span>
+    </header>
+>>>>>>> origin/master
 
     <main>
         <div class="Cont_contenedor1">
         <div class="contenedor1">
             <img src="./images_index.html/clave_left-removebg-preview.png" alt="Key_Left_Image" class="Key_Image">
+<<<<<<< HEAD
             <span class="open_Access">SystemLP Access</span>
+=======
+            <span class="open_Access">Acceso a openComex</span>
+>>>>>>> origin/master
             <img src="./images_index.html/clave_right.png" alt="Key_Right_Image">
         </div>
     </div>
 
     <div class="Cont_contenedor2">
         <div class="contenedor2">
+<<<<<<< HEAD
             <form action="" method="post">
                 <fieldset>
                     <legend>SystemLP Login</legend>
@@ -77,6 +94,25 @@ if(isset($_POST['Acepta_Usuario'])){
 
 
 ?>
+=======
+            <form action="index.php" method="get">
+                <fieldset>
+                    <legend>Opencomex Login David López</legend>
+            
+               <strong> <label for="">Login</label></strong>
+                <input type="text">
+            </fieldset>
+            </form>
+        </div>
+    </div>
+        <div class="button">
+            <button><i class="fa-solid fa-circle-check"></i>Aceptar</button>
+        </div>
+    </main>
+
+    <footer>
+
+>>>>>>> origin/master
     </footer>
 
 </body>
