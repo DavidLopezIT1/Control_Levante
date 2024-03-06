@@ -2,6 +2,7 @@
 include 'validator.php';
 //include 'conection.php';
 session_start();
+
 if(isset($_POST['Acepta_Usuario'])){
 
 // Debo traer un array en donde se encuentre la información de la tabla users_2 -> Se utiliza el mysqli_fetch_array($variable)
@@ -11,12 +12,14 @@ if(isset($_POST['Acepta_Usuario'])){
         $consultaUsuario= $conection->query("SELECT id FROM users_2 WHERE id LIKE '%$loginuserL%'");       
         $constanteUsuario =  mysqli_fetch_array($consultaUsuario);
        
-        if($loginuserL = $constanteUsuario){
-            header("location: http://localhost/Control_Levante-master//fact.php");
-        }else{
-            echo "Error, Credencial de acceso NO valida";    
-        }
     }
+
+    if(isset($_POST['Acepta_Usuario']) && $loginuserL = $constanteUsuario){
+        header("location: http://localhost/Control_Levante-master//fact.php");
+    }else{?>
+        
+        <script>alert('NO puede ingresar, Credenciales de acceso NO validas')</script>  
+    <?php  }
 }
 
 ?>
