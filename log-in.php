@@ -11,13 +11,11 @@ if(isset($_POST['Acepta_Usuario'])){
         $consultaUsuario= $conection->query("SELECT id FROM users_2 WHERE id LIKE '%$loginuserL%'");       
         $constanteUsuario =  mysqli_fetch_array($consultaUsuario);
        
-                if($loginuserL = $constanteUsuario){?>
-                    <h3>Ingreso Exitoso a DsTecnology</h3>
-                    <?php 
-                }else{?>
-                    <h3>Credenciales no validas</h3>
-                <?php
-                }
+        if($loginuserL = $constanteUsuario){
+            header("location: http://localhost/Control_Levante-master//fact.php");
+        }else{
+            echo "Error, Credencial de acceso NO valida";    
+        }
     }
 }
 
@@ -62,9 +60,10 @@ if(isset($_POST['Acepta_Usuario'])){
             </fieldset>
             
         </div>
-    </div>
+   </div>
+    
         <div class="button">
-            <button name="Acepta_Usuario" ><i class="fa-solid fa-circle-check"></i> <?php ?>Aceptar</button>
+            <button name="Acepta_Usuario" ><i class="fa-solid fa-circle-check"></i>Aceptar</button>
         </div>
         </form>
     </main>

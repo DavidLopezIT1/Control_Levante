@@ -27,3 +27,4 @@ include "conection.php";
     
 }
 
+//header("location: http://localhost/Control_Levante-master//fact.php");
