@@ -1,9 +1,5 @@
 <?php
 
-session_start();
-
-$usuariosqui="David López";
-
 
 ?>
 
@@ -17,7 +13,7 @@ $usuariosqui="David López";
 </head>
 <body>
     <div class="header"> 
-    <span class="openTecnología">openTecnología </span>
+    <span class="openTecnología">Ds Tecnology  </span>
     <span class="Header_Text">Usuario: <?php if($_SESSION){ echo $usuariosqui;} else{ echo "...";} ?></span>
         <span class="Header_Text">Id: ...</span>
             <span class="Header_Text">Db: ...</span>
@@ -28,10 +24,10 @@ $usuariosqui="David López";
     <div class="ruta">
         <h3 class="Links"><a href="log-in.php"> Inicio> </a></h3>
         <h3 class="Links"><a href="user.php"> User> </a></h3>
-        <h3 class="Links"><a href="index.php"> Variables> </a></h3>
+        <h3 class="Links"><a href="variables.php"> Variables></a></h3>
         <h3 class="Links"><a href="fact.php"> Campos de Factura> </a></h3>
-        <h3 class="Links"><a href="complementar.php"> Complementar> </a></h3>
-        <h3 class="Links"><a href="nuevo_robot.php"> Robot...> </a></h3>
+        <h3 class="Links"><a href="complementar.php"> Complementar></a></h3>
+        <h3 class="Links"><a href="nuevo_robot.php"> Robot...></a></h3>
         </div>
         
     </header>

@@ -14,7 +14,7 @@ include "conection.php";
 <header>
 <div class="ruta">
         <h3 class="Links"><a href="log-in.php"> Inicio> </a></h3>
-        <h3 class="Links"><a href="index.php"> Variables> </a></h3>
+        <h3 class="Links"><a href="variables.php"> Variables> </a></h3>
         <h3 class="Links"><a href="fact.php"> Campos de Factura> </a></h3>
         <h3 class="Links"><a href="complementar.php"> Complementar> </a></h3>
         <h3 class="Links"><a href="nuevo_robot.php"> Robot...> </a></h3>

@@ -12,7 +12,7 @@
     <div class="ruta">
         <h3 class="Links"><a href="log-in.php"> Inicio> </a></h3>
         <h3 class="Links"><a href="user.php"> User> </a></h3>
-        <h3 class="Links"><a href="index.php"> Variables> </a></h3>
+        <h3 class="Links"><a href="variables.php"> Variables> </a></h3>
         <h3 class="Links"><a href="fact.php"> Campos de Factura> </a></h3>
         <h3 class="Links"><a href="complementar.php"> Complementar> </a></h3>
         <h3 class="Links"><a href="nuevo_robot.php"> Robot...> </a></h3>
@@ -23,7 +23,7 @@
     <form action="fact.php" method="post">
 
 <fieldset class="form_fact"> 
-        <legend>Factura DO BUN-BUNI0211037-001</legend>
+        <legend>Invoice index</legend>
 
     <label for="" class="label_header1">Suc</label>
     <label for="" class="label_header2">DO/Imp</label>

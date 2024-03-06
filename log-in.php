@@ -1,5 +1,6 @@
 <?php
 include 'validator.php';
+
 //include 'conection.php';
 session_start();
 
@@ -9,9 +10,8 @@ if(isset($_POST['Acepta_Usuario'])){
 
     if(strlen($_POST['SpaceLogin']>1)){
         $loginuserL = trim($_POST['SpaceLogin']);
-        $consultaUsuario= $conection->query("SELECT id FROM users_2 WHERE id LIKE '%$loginuserL%'");       
-        $constanteUsuario =  mysqli_fetch_array($consultaUsuario);
-       
+        $consultaUsuario= $conection->query("SELECT loginUsuario FROM users_2 WHERE loginUsuario LIKE '%$loginuserL%'");       
+        $constanteUsuario =  mysqli_fetch_array($consultaUsuario); 
     }
 
     if(isset($_POST['Acepta_Usuario']) && $loginuserL = $constanteUsuario){
@@ -19,6 +19,7 @@ if(isset($_POST['Acepta_Usuario'])){
     }else{?>
         
         <script>alert('NO puede ingresar, Credenciales de acceso NO validas')</script>  
+        
     <?php  }
 }
 

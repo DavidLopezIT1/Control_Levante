@@ -13,38 +13,44 @@
     <div class="ruta">
         <h3 class="Links"><a href="log-in.php"> Inicio> </a></h3>
         <h3 class="Links"><a href="user.php"> User> </a></h3>
-        <h3 class="Links"><a href="index.php"> Variables> </a></h3>
+        <h3 class="Links"><a href="variables.php"> Variables> </a></h3>
         <h3 class="Links"><a href="fact.php"> Campos de Factura> </a></h3>
         <h3 class="Links"><a href="complementar.php"> Complementar> </a></h3>
         <h3 class="Links"><a href="nuevo_robot.php"> Robot...> </a></h3>
     </div>
 
-<form action="nuevo_robot.php" class="form1" method="get">
+        <div class="monster">
+            <form action="nuevo_robot.php" class="form1" method="get">
+                
+            <fieldset> 
+                    <legend>Complementar DO BUN-BUNI0211037-001</legend>
+                    
 
-<fieldset> 
-        <legend>Complementar DO BUN-BUNI0211037-001</legend>
+                <label for="Suc1" class="label_header1">Suc</label>
+                <label for="DO/Im1" class="label_header2">DO/Imp</label>
+                <label for="Nit/CC1" class="label_header3">Nit/CC</label>
+                <label for="Hora1" class="label_header4">Importador</label>
+                <label for="Teléfono1" class="label_header5">Teléfono</label>
+                <label for="Actividad1" class="label_header6">Actividad</label>
+                <label for="Hora1" class="label_header7">Clase</label>
+                
+                <br>
+                <input type="text" name="Suc1" class="Suc" value ="BUN" disabled>
+                <input type="text" name="DO/Im1" class="DO_Im" value ="BUNI0211037" disabled>
+                <input type="text" name="Nit/CC1" class="Nit_CC" value ="19888888" disabled>
+                <input type="text" name="Importador1" class="Importador" value ="IMPORTADOR LIMITADO" disabled>
+                <input type="text" name="Verificador1" class="Verificador" value ="3" disabled>
+                <input type="text" name="Teléfono1" class="Teléfono" value ="3111111" disabled>
+                <input type="text" name="Actividad1" class="Actividad" value ="5141" disabled>
+                <input type="text" name="Hora1" class="Hora" value ="1" disabled>
+            
+            </fieldset>
 
-    <label for="Suc1" class="label_header1">Suc</label>
-    <label for="DO/Im1" class="label_header2">DO/Imp</label>
-    <label for="Nit/CC1" class="label_header3">Nit/CC</label>
-    <label for="Hora1" class="label_header4">Importador</label>
-    <label for="Teléfono1" class="label_header5">Teléfono</label>
-    <label for="Actividad1" class="label_header6">Actividad</label>
-    <label for="Hora1" class="label_header7">Clase</label>
-    
-    <br>
-    <input type="text" name="Suc1" class="Suc" value ="BUN" disabled>
-    <input type="text" name="DO/Im1" class="DO_Im" value ="BUNI0211037" disabled>
-    <input type="text" name="Nit/CC1" class="Nit_CC" value ="19888888" disabled>
-    <input type="text" name="Importador1" class="Importador" value ="IMPORTADOR LIMITADO" disabled>
-    <input type="text" name="Verificador1" class="Verificador" value ="3" disabled>
-    <input type="text" name="Teléfono1" class="Teléfono" value ="3111111" disabled>
-    <input type="text" name="Actividad1" class="Actividad" value ="5141" disabled>
-    <input type="text" name="Hora1" class="Hora" value ="1" disabled>
+            <input type="submit" value="Salir" class="Button_Salir2">
 
-</fieldset>
-</form>
-<input type="submit" value="Salir" class="Button_Salir2">
+            </form>
+
+        </div>
 
 </header>
 
@@ -68,8 +74,9 @@
             text-align:end;
         }
     </style>
+    <div class="monster">
     <form action="nuevo_robot.php" class="form2" method="post">
-
+        <div>
     <fieldset> 
         <legend>Declaración <span class="Dec_1">1</span></legend>
 
@@ -107,18 +114,19 @@
     <input type="text" name="Autoadhesivo" class="Autodhesivo">
     <input type="text" name="Fecha4" class="Fecha3">
     <input type="text" name="Hora4" class="Hora3">
-
+        <br>
     </fieldset>
-
+    </div>
     <!--  </form>-->
    <!-- <form action="nuevo_robot.php" method="post"> -->
     <div class="Buttons">
-        
+        <br>
         <input type="submit" value="Guardar" class="Button_Guardar" name="Guardar">
         <input type="submit" value="Anticipada" class="Button_Anticipada">
         <input type="submit" value="Salir" class="Button_Salir">
     </div>
     </form>
+    </div>
     </main>
 
     <footer>
