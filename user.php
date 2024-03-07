@@ -1,6 +1,6 @@
 <?php
 include "validator.php";
-include "conection.php";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -30,6 +30,11 @@ include "conection.php";
     <label for="user_id1" class="user_idL">Identificación usuario</label>
     <label for="user_login1" class="user_loginL">Log-In usuario</label>
     <label for="user_Email1" class="user_EmailL">Email usuario</label>
+    <label for="user_Email1" class="user_EmailL">Cargo</label>
+    <label for="user_Email1" class="user_EmailL">Tipo usuario</label>
+    <label for="user_Email1" class="user_EmailL">Contraseña</label>
+    <label for="user_Email1" class="user_EmailL">Sucursal</label>
+
     <br>
     <input type="text" class="user_name1" name="user_name">
     <input type="text" class="user_id1" name="user_id">

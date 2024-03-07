@@ -15,6 +15,6 @@ if($conection->connect_errno){
     //$errorDeConexion = connect_errno;
     die ("Conección Fallida" . $conection->connect_errno);
 }else{
-    echo "Conexión Exitosa!";
+    echo "";
 }
 ?>

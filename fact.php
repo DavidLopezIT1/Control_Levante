@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="complementar.css">
+    <link rel="stylesheet" href="fact.css">
     <title>Form_Factura</title>
 </head>
 <body>
@@ -42,7 +43,7 @@
     <input type="text" name="Actividad1" class="Actividad" value ="5141" disabled>
     <input type="text" name="Hora1" class="Hora" value ="1" disabled>
 
-    <style>
+   <!--- <style>
         .Dec_1{
             color:red;
         }
@@ -62,7 +63,7 @@
         }
     </style>
     
-
+--->
     
 <br>
 <div>
