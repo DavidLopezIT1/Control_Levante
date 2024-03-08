@@ -17,13 +17,11 @@ if(isset($_POST['Acepta_Usuario'])){
     }
     if(isset($_POST['Acepta_Usuario']) && $loginuserL = $constanteUsuario){
 
-        header("location: http://localhost/Control_Levante-master//fact.php");
+        header("location: http://localhost/Control_Levante-master//index.php");
         
     }else{?>
         <script>alert('NO puede ingresar, Credenciales de acceso NO validas')</script>  
     <?php  }
-
-
 }
 
 ?>

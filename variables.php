@@ -1,13 +1,12 @@
 <?php
 session_start();
-
 ?>
 <!DOCTYPE html>
 <html lang='en'>
 <head>
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <link rel='stylesheet' href='style_index.css'>
+    <link rel='stylesheet' href='variables.css'>
     <title>Control Agendamientos OCQA</title>
 </head>
 <body>
@@ -17,14 +16,14 @@ session_start();
         <span class='Header_Text'>Id: ...</span>
             <span class='Header_Text'>Db: ...</span>
                 <span class='Header_Text'>Fecha: ...</span>
-                <h3 class='Header_Text'><a href='cierresesiones.php'> cerrar sesion></a></h3>
+                <h3 class='Header_Text_Cs'><a href='cierresesiones.php'>cerrar sesion</a></h3>
     </div>
     
     <header>
     <div class='ruta'>
         <h3 class='Links'><a href='log-in.php'> Inicio> </a></h3>
         <h3 class='Links'><a href='user.php'> User> </a></h3>
-        <h3 class='Links'><a href='variables.php'> Variables></a></h3>
+        
         <h3 class='Links'><a href='fact.php'> Campos de Factura> </a></h3>
         <h3 class='Links'><a href='complementar.php'> Complementar></a></h3>
         <h3 class='Links'><a href='nuevo_robot.php'> Robot...></a></h3>
@@ -35,18 +34,22 @@ session_start();
 
     <main>
     <div class='cont_body'>
-            <h1>Inicialización de Controles de Validación Lógica y Condicional</h1>
+        
+        <marquee class="marquee"> <h2>Variable disponible par usuario Admin</h2> </marquee>
                 
         <form action='' method='post'>
 
             <fieldset>
                 <legend>Variable general del sistema</legend>
                 
-                <div class='mixed'><span class='codigo'>Código</span> <span class='valor'>Valor</span></div>
+                <div class='mixed'>
+                    <span class='codigo'>Código</span> 
+                    <span class='valor'>Valor</span>
+                </div>
                 
                 <div>
-                    <input type='text' value='Bloquear_Agendamiento_Con_Aceptación' disabled size='55%' class='Name_Var'>
-                    <input type='text' size='55%'>
+                    <input type='text' value='Bloquear_Agendamiento_Con_Aceptación' disabled size='41%' >
+                    <input type='text' size='41%'class='Name_Var'>
                 </div>
 
                 <div>Descripción</div>
@@ -55,7 +58,7 @@ session_start();
                     </div>
 
             </fieldset>
-                <div >
+                <div class="buttons" >
                     <button class='button_var_one' >Guardar</button>
                     <button>Salir</button>
                 </div>

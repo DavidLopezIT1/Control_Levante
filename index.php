@@ -17,6 +17,7 @@ session_start();
         <span class="Header_Text">Id: ...</span>
             <span class="Header_Text">Db: ...</span>
                 <span class="Header_Text">Fecha: ...</span>
+                    <span class="Header_Text"><a href="cierresesiones.php">Cerrar sesion</a></span>
     </div>
     </header>
 
@@ -26,9 +27,9 @@ session_start();
             </div>
             <div>
                     <ul>
-                        <h3>Modulo de control usuarios</h3>
-                        <h3>Modulo de Variables del sistema</h3>
-                        <h3>Modulo de Facturacion</h3>
+                        <h3><a href="user.php">Modulo de control usuarios</a></h3>
+                        <h3><a href="">Modulo de Facturacion</a></h3>
+                      
                     </ul>
             </div>
 
