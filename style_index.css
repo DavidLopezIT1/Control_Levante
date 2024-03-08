@@ -14,13 +14,9 @@ html{
         align-items: center;
         font-family: Arial, Helvetica, sans-serif;
     }
-.ruta{
-    display: flex;
-    justify-content: center;
-    width:850px;
-}
+
 main{
-    display: flex;
+    display: inline-block;
     justify-content: center;
 
 }
@@ -43,16 +39,7 @@ h3{
     text-decoration: underline;
     margin-left: 6px;
 }
-textarea{
-    width: 840px;
-}
-button{
-    width: 90px;
-    height: 23px;
-    border-radius: 5px;
-    border: solid 1px #6781f285;
 
-}
 .button_var_one{
     margin-left: 790px;
     background-color: #6781f2f6;

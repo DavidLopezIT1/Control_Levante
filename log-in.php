@@ -1,11 +1,13 @@
 <?php
 include 'validator.php';
+session_start();
+$_SESSION['nombre']='David' . " ";
+
 
 //include 'conection.php';
-session_start();
+
 
 if(isset($_POST['Acepta_Usuario'])){
-
 // Debo traer un array en donde se encuentre la información de la tabla users_2 -> Se utiliza el mysqli_fetch_array($variable)
 
     if(strlen($_POST['SpaceLogin']>1)){
@@ -13,14 +15,15 @@ if(isset($_POST['Acepta_Usuario'])){
         $consultaUsuario= $conection->query("SELECT loginUsuario FROM users_2 WHERE loginUsuario LIKE '%$loginuserL%'");       
         $constanteUsuario =  mysqli_fetch_array($consultaUsuario); 
     }
-
     if(isset($_POST['Acepta_Usuario']) && $loginuserL = $constanteUsuario){
+
         header("location: http://localhost/Control_Levante-master//fact.php");
+        
     }else{?>
-        
         <script>alert('NO puede ingresar, Credenciales de acceso NO validas')</script>  
-        
     <?php  }
+
+
 }
 
 ?>

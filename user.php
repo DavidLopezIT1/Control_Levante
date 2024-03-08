@@ -1,6 +1,13 @@
 <?php
-include "validator.php";
+session_start();
 
+if($_SESSION){
+    echo"";
+}else
+    header("location:http://localhost/Control_Levante-master//cierresesiones.php");
+
+include "validator.php";
+        
 ?>
 <!DOCTYPE html>
 <html lang="en">
